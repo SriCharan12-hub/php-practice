@@ -70,14 +70,32 @@ echo 'Hi, $name';
 
 ?>
 
-<!-- <?php -->
-// $value = trim(fgets(STDIN));
-// stdin used to take user input
-// if we run this code i am facing an error like how to give input 
-// echo "<br>";
-// echo $value;
-// ?>
+<?php
+#$value = trim(fgets(STDIN));
+#stdin used to take user input
+#if we run this code i am facing an error like how to give input 
+#echo "<br>";
+#echo $value;
+#
 
+
+// $var = int(fgets(STDIN));
+//convert values into int,float,double,string
+// echo "<br>";
+// echo $var;
+echo "<br>";
+echo "2" + "5";
+echo "<br>";
+echo 2 . 5;
+echo "<br>";
+echo "2" . "5";
+echo "<br>";
+echo 2 + 5;
+echo "<br>";
+echo 2 . "5";
+echo "<br>";
+echo "2" + 5;
+?>
 
 
 
