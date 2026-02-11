@@ -79,8 +79,8 @@ echo 'Hi, $name';
 #
 
 
-// $var = int(fgets(STDIN));
-//convert values into int,float,double,string
+// $var = (int)(fgets(STDIN));
+//convert values into int,float,double,string for these separate parenthesis should be present if not u will face error
 // echo "<br>";
 // echo $var;
 echo "<br>";
@@ -95,6 +95,13 @@ echo "<br>";
 echo 2 . "5";
 echo "<br>";
 echo "2" + 5;
+?>
+
+
+<?php 
+// $val = intval(fgets(STDIN));
+// echo "<br>";
+// echo $val;
 ?>
 
 
