@@ -102,6 +102,20 @@ echo "2" + 5;
 // $val = intval(fgets(STDIN));
 // echo "<br>";
 // echo $val;
+echo(2>3); /*bool(false)*/
+$a = 5;
+$b = 9;
+echo($a > $b); // false
+?>
+
+
+<?php 
+// == normal
+
+// strictly equal to 
+
+// &&  and 
+// || or
 ?>
 
 
